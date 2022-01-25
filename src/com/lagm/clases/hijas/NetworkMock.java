@@ -7,6 +7,6 @@ import com.lagm.clases.NetworkClass;
 public class NetworkMock extends NetworkClass {
 	@Override
 	public String getStringFromRemoteServer() throws IOException {
-		return "Hello2";
+		return "World";
 	}
 }

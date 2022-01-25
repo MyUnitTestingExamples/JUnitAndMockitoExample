@@ -25,8 +25,7 @@ public class SomeComplexClassTest {
 		
 		OutputMock outputMock = (OutputMock)outputClass;
 		String valorReal = outputMock.getTheString();
-		String resultadoEsperado = "Hello - Hello2";
-		System.out.println("valorReal: " + valorReal);
+		String resultadoEsperado = "Hello - World";
 		assertEquals(valorReal, resultadoEsperado);
 	}
 }
